@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="GBK" standalone="yes"?>
+<site xsi:noNamespaceSchemaLocation="../../site.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>4a4a63c62ec1453e9ed38dfd323e100f</id>
+    <name>Glimmer</name>
+    <author name="taobao" url="http://www.taobao.com" wangwang="taobao"></author>
+    <thumbnail>assets/images/index.png</thumbnail>
+    <language>php</language>
+    <version>0.0.1</version>
+    <apply-sites>3,7</apply-sites>
+    <change-notes>Change note</change-notes>
+    <description>glimmer</description>
+    <global>
+        <header>header.php</header>
+        <footer>footer.php</footer>
+        <css>assets/stylesheets/global.css</css>
+    </global>
+    <styles default="blue">
+        <style>
+            <name>blue</name>
+            <thumbnail>assets/images/index.png</thumbnail>
+            <css>assets/stylesheets/blue.css</css>
+        </style>
+    </styles>
+    <pages>
+        <page type="index">
+            <name>home</name>
+            <thumbnail>assets/images/index.png</thumbnail>
+            <file>home.php</file>
+            <content>&lt;![CDATA[&lt;!-- index.php --&gt; ]]&gt;</content>
+            <description></description>
+        </page>
+        <page type="index">
+            <name>shop</name>
+            <thumbnail>assets/images/index.png</thumbnail>
+            <file>shop.php</file>
+            <content>&lt;![CDATA[]]&gt;</content>
+            <description></description>
+        </page>
+        <page type="other">
+            <name>collections</name>
+            <thumbnail>assets/images/index.png</thumbnail>
+            <file>collections.php</file>
+            <content>&lt;![CDATA[]]&gt;</content>
+            <description></description>
+        </page>
+        <page type="article">
+            <name>blog</name>
+            <thumbnail>assets/images/index.png</thumbnail>
+            <file>blog.php</file>
+            <description></description>
+        </page>
+    </pages>
+</site>
